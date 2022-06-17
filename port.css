@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.text h1{
+    color: white;
+}
+.text{
+    text-align: center;
+    margin-top: 3%;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.text span{
+    color: goldenrod;
+}
+.text-two h4{
+    color: white;
+
+}
+.text-two{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+h4:before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    background: goldenrod;
+    left: 29%;
+    top: 20.5%;
+
+
+}
+h4:after{
+
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    background: goldenrod;
+    right: 29%;
+    top: 20.5%;
+
+
+}
+.container{
+    margin-left: 1rem;
+    padding: 4rem;
+}
